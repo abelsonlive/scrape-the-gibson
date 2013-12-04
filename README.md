@@ -5,8 +5,21 @@ These code snippets are the core of a scraping workshop for the NYU Gov 3.0 Skil
 
 ## Dependencies
 
-To fetch this code, you'll need to clone the repository from github. To do so you'll need `git 
+1. Download repo: https://github.com/abelsonlive/nyu-skill-share-scraping
 
+2. Install dependencies
+  * If you don't have pip installed, type:
+  ```
+  sudo easy_install pip
+  ```
+  change directories
+  ```
+  cd nyu-skill-share-scraping
+  ````
+  * now run:
+  ```
+  sudo pip install -r requirements.txt
+  ```
 
 ## Topics
 
