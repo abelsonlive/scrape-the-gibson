@@ -81,10 +81,6 @@ def scrape_missed_connections():
         url = urljoin(BASE_URL, link)
         urls.append(url)
 
-        # # Scrape each missed connection's page.
-        # scrape_missed_connection(url)
-
-    # scrape messages concurrently
     threaded(urls, scrape_missed_connection, num_threads=10)
 
 def scrape_missed_connection(url):

@@ -108,15 +108,21 @@ def get_content(url):
     return content
 
 def scrape_missed_connection_pages():
-    pages = []
+    """
+    scrape all index pages of missed connections
+    """
+    indices = ["", "100", "200", "300", "400", "500", "600"]
+    page_urls = [BASE_URL + "mis/index%s.html" % str(i) for i in indices]
     threaded(pages, scrape_missed_connection, num_threads=10)
 
 
-def scrape_missed_connection_page(page):
+def scrape_missed_connection_page(page_url):
     """ Scrape all the deputies from the list """
     
     # Download the list.
-    content = get_content(BASE_URL + page)
+    print "scraping links from " + page_url
+
+    content = get_content(page_url)
 
     # Parse HTML
     soup = BeautifulSoup(content)
@@ -138,7 +144,7 @@ def scrape_missed_connection(url):
 
     # Build the full URL for each deputy; download & parse it.
     content = get_content(url)
-
+    print url
     # Parse HTML
     soup = BeautifulSoup(content)
 

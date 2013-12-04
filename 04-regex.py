@@ -163,5 +163,6 @@ def scrape_missed_connection(url):
     table.upsert(data, ['source_url'])
 
 
+
 if __name__ == '__main__':
     scrape_missed_connections()
