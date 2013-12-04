@@ -1,0 +1,4 @@
+cache/*
+*.pyc
+missed_connections.db
+.DS_Store
