@@ -109,7 +109,7 @@ def scrape_missed_connection(url):
 
     # retrieve the missed connection with requests
 
-    response = requests.get(url)
+    response = get_content(url)
 
     # Parse the html of the missed connection post
 
