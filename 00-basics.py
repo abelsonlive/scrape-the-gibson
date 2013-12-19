@@ -84,4 +84,3 @@ def scrape_missed_connection(url):
 
 if __name__ == '__main__':
     scrape_missed_connections()
-

@@ -58,6 +58,10 @@ def scrape_missed_connections():
 def scrape_missed_connection(url):
     """ Extract information from a missed connections's page. """
 
+    # log the url we're scraping
+
+    print "scraping %s ..." % url    
+
     # retrieve the missed connection with requests
 
     response = requests.get(url)
