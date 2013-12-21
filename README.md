@@ -1,6 +1,6 @@
-# Scraping Workshop for NYU Gov 3.0 Skill-Share
+# Scrape the Gibson
 
-These code snippets are the core of a scraping workshop for the NYU Gov 3.0 Skill-Share. It's addressed at people who have already done a bit of coding but want to explore scraping in `python` in more depth.  The workshop will be much easier if you have a Mac or Linux-based computer.
+These code snippets are the core of a [post I wrote about web scraping in python](http://brianabelson.com/open-news/2013/12/17/scrape-the-gibson.html). It's addressed at people who have already done a bit of coding but want to explore scraping in `python` in more depth.  The workshop will be much easier if you have a Mac or Linux-based computer.
 
 
 ## Dependencies
