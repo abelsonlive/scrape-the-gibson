@@ -5,7 +5,7 @@ These code snippets are the core of a [post I wrote about web scraping in python
 
 ## Dependencies
 
-1. Download repo: https://github.com/abelsonlive/nyu-skill-share-scraping
+1. Download repo: https://github.com/abelsonlive/scrape-the-gibson
 
 2. Install dependencies
   * If you don't have pip installed, type:
