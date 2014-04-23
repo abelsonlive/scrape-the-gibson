@@ -128,8 +128,6 @@ def scrape_missed_connection(url):
     # here were using BeautifulSoup's `text` method for retrieving
     # the plain text within each HTML element.
 
-    # see and example of what this page looks like here:
-
     data = {
         'source_url': url,
         'subject': soup.find('h2', {'class':'postingtitle'}).text.strip(),
